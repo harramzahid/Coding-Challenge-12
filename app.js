@@ -50,3 +50,7 @@ function drawShape(endX, endY) {
 
     ctx.stroke();
 }
+// Clear button functionality
+document.getElementById('clearButton').addEventListener('click', () => {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+});
